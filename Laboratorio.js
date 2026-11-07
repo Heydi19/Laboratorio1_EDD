@@ -84,12 +84,17 @@ return this.#elementos[this.#elementos.length - 1];
 }
 estaVacia() {
 return this.#elementos.length === 0;
-esta
 }
+estaLlena(){
+    return this.#elementos.length >= 10; // Suponiendo un tamaño máximo de 10
+}
+
 tamaño() {
 return this.#elementos.length;
 }
+capacidad() {
+return 10; // Suponiendo un tamaño máximo de 10 
 
 
 }
-
+}
